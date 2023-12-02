@@ -1,8 +1,6 @@
 function findFirstRepeated(gifts: number[]): number {
   const seen: { [key: number]: number } = {};
 
-  let foo: any;
-
   for (let index = 0; index < gifts.length; index++) {
     const currentNum = gifts[index];
 
